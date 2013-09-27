@@ -44,8 +44,8 @@
 			</property>			
 </bean>
 	<context:annotation-config/>
-	<japa: repositories base-package="by.rapublic.webra.repository" 
+	<jpa:repositories base-package="by.rapublic.webra.repository" 
 	entity-manager-factory-ref="emf"
 	transaction-manager-ref="transactionManager"/>
-</beans>
+</beans> 
 	
